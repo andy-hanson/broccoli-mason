@@ -4,11 +4,11 @@
 	"description": "Mason plugin for Broccoli",
 	"repository": "mason-lang/broccoli-mason",
 	"license": "WTFPL",
-	"files": ["index.js"],
 	"scripts": {"lint": "eslint index.js"},
 	"dependencies": {
 		"broccoli-filter": "1.2.2",
 		"convert-source-map": "1.1.2",
+		"mason-compile": "mason-lang/mason-compile",
 		"mason-node-util": "mason-lang/mason-node-util"
 	},
 	"devDependencies": {
