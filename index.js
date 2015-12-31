@@ -6,6 +6,7 @@ const
 	Compiler = require('mason-compile/dist/Compiler').default,
 	compileWarnAndThrow = require('mason-node-util/dist/compile-warn-and-throw').default
 
+/* eslint-disable consistent-return */
 const MasonFilter = module.exports = function MasonFilter(inputTree, options) {
 	if (!(this instanceof MasonFilter)) return new MasonFilter(inputTree, options)
 	Filter.call(this, inputTree, options)

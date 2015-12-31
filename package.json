@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"description": "Mason plugin for Broccoli",
 	"repository": "mason-lang/broccoli-mason",
-	"license": "WTFPL",
+	"license": "Unlicense",
 	"scripts": {"lint": "eslint index.js"},
 	"dependencies": {
 		"broccoli-filter": "1.2.2",
@@ -12,7 +12,7 @@
 		"mason-node-util": "mason-lang/mason-node-util"
 	},
 	"devDependencies": {
-		"eslint": "1.10.1",
+		"eslint": "2.0.0-alpha-2",
 		"eslint-config-mason": "mason-lang/eslint-config-mason"
 	},
 	"eslintConfig": {"extends": "eslint-config-mason"}
