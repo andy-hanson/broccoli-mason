@@ -3,8 +3,8 @@
 const
 	Filter = require('broccoli-filter'),
 	convertSourceMap = require('convert-source-map'),
-	Compiler = require('mason-compile/dist/Compiler').default,
-	compileWarnAndThrow = require('mason-node-util/dist/compile-warn-and-throw').default
+	Compiler = require('mason-compile/lib/Compiler').default,
+	compileWarnAndThrow = require('mason-node-util/lib/compile-warn-and-throw').default
 
 /* eslint-disable consistent-return */
 const MasonFilter = module.exports = function MasonFilter(inputTree, options) {
